@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["secure-training-live-resource"],{ff2d7:function(e,i,n){"use strict";n.r(i);var o=n("828b"),u=Object(o["a"])({},void 0,void 0,!1,null,null,null,!1,void 0,void 0);i["default"]=u.exports}}]);

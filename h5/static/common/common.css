@@ -1,0 +1,57 @@
+/*播放按钮设置成宽高一致，圆形，居中*/
+.vjs-custom-skin>.video-js .vjs-big-play-button {
+	background-color: rgba(0, 0, 0, 0.45);
+	font-size: 2.5em;
+	border-radius: 50%;
+	height: 2em !important;
+	line-height: 2em !important;
+	width: 2em !important;
+	outline: none;
+	top: 50%;
+	left: 50%;
+	margin-left: -1em;
+	margin-top: -1em;
+	color: white;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+.video-js .vjs-control{
+	position: relative;
+	padding: 0;
+	
+}
+.video-js .vjs-has-started .vjs-control-bar{
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+} 
+.video-js .vjs-control-bar{
+	height:4em;
+    position: relative;
+}
+.vjs-custom-skin>.video-js .vjs-big-play-button {
+	
+}
+
+.vjs-custom-skin > .video-js .vjs-control-bar{
+	height: 4em;
+}
+
+
+.video-js .vjs-control-bar{
+  background-color: rgba(0,0,0,0.2) !important;
+}
+ 
+/*点击按钮时不显示蓝色边框*/
+.video-js .vjs-control-bar button{
+  outline: none;
+}
+
+.video-js .vjs-mute-control{
+	display: none;
+}
+.video-js .vjs-playback-rate{
+	display: none;
+}
